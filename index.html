@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="id" data-theme="dark" style="color-scheme: dark;"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kas Kelas X-5 · MAN 1 Jember</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#080d12;--surface:#101820;--card:#111b24;--ink:#edf4f8;--mut:#8b9ba8;--line:#22313c;--acc:#f4c84a;--acc2:#332e1b;--red:#ff806f;--red2:#38211f;--cur:#302a17;--me:#172a3a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 15% 0%,#183149 0,transparent 34%),radial-gradient(ellipse at 100% 38%,#252318 0,transparent 30%),var(--bg);background-attachment:fixed;color:var(--ink);font:15px/1.55 "DM Sans",system-ui,sans-serif;min-height:100vh}
+button,input,select{font:inherit;color:inherit}
+.wrap{max-width:1160px;margin:0 auto;padding:12px 24px 56px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:16px 0 18px;border-bottom:1px solid #ffffff12}
+.brand{display:flex;align-items:center;gap:13px}.brand img,.login-logo{width:48px;height:48px;object-fit:contain;border-radius:50%;background:#fff;padding:3px;box-shadow:0 0 0 1px #ffffff20,0 8px 28px #0005}.brand b{display:block;font:800 19px/1.2 Manrope,sans-serif}.brand span{color:var(--mut);font-size:13px}
+.who{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.who>span{font-size:13px;text-align:right;line-height:1.25}.who em{display:block;color:var(--mut);font-style:normal;font-size:12px}
+.btn{border:1px solid var(--line);background:#121e27;border-radius:8px;padding:8px 14px;cursor:pointer;font-weight:600;transition:transform .2s,border-color .2s,background .2s,box-shadow .2s}
+.btn:hover{border-color:var(--acc);transform:translateY(-2px);box-shadow:0 7px 20px #0004}.btn.pri{background:var(--acc);border-color:var(--acc);color:#10151a}.btn:disabled{opacity:.45;cursor:default;transform:none;box-shadow:none}
+.tabs{display:flex;gap:5px;border-bottom:1px solid var(--line);margin-bottom:22px;overflow-x:auto;padding-top:9px}
+.tabs button{border:0;background:none;padding:10px 14px;cursor:pointer;color:var(--mut);font-weight:500;border-bottom:2px solid transparent;white-space:nowrap}
+.tabs button{transition:color .2s,background .2s}.tabs button:hover{color:var(--ink);background:#ffffff08}.tabs button.on{color:var(--acc);border-color:var(--acc)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-bottom:12px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.card{background:linear-gradient(145deg,#17232d,#10171e 75%);border:1px solid #ffffff12;border-radius:10px;padding:18px;margin-bottom:12px;box-shadow:0 12px 32px #0002;animation:rise .55s both;transition:transform .22s,border-color .22s,box-shadow .22s}.card:hover{transform:translateY(-3px);border-color:#f4c84a55;box-shadow:0 16px 38px #0004}.grid .card,.two .card{margin:0}.grid .card:nth-child(2){animation-delay:.06s}.grid .card:nth-child(3){animation-delay:.12s}.grid .card:nth-child(4){animation-delay:.18s}
+.card label{display:block;color:var(--mut);font-size:13px}.card strong{display:block;font-size:24px;letter-spacing:-.02em;margin:2px 0}
+.card.big{background:linear-gradient(125deg,#f4c84a,#e7a928);border-color:#ffdc72;color:#15191d;position:relative;overflow:hidden}.card.big:after{content:"";position:absolute;width:180px;height:180px;border:1px solid #10151a25;border-radius:50%;right:-35px;top:-105px;box-shadow:0 0 0 22px #10151a08,0 0 0 46px #10151a06}.card.big label{color:#3b3218}
+.g{color:var(--acc)}.r{color:var(--red)}small,.mut{color:var(--mut);font-size:13px}
+h3{margin:0 0 10px;font-size:15px}
+.bar{height:9px;background:var(--acc2);border-radius:9px;overflow:hidden;margin:10px 0}.bar i{display:block;height:100%;background:linear-gradient(90deg,#eaaa27,#ffe27a);border-radius:inherit;animation:fillbar 1s .25s both;transform-origin:left}
+.row{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid var(--line)}.row:first-of-type{border-top:0}
+.tag{display:inline-block;padding:1px 8px;border-radius:9px;font-size:12px;background:var(--red2);color:var(--red)}.tag.ok{background:var(--acc2);color:var(--acc)}
+.tw{overflow-x:auto;border:1px solid #ffffff14;border-radius:10px;background:var(--card);animation:rise .45s both}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:8px 10px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--line)}
+th{font-weight:600;color:var(--mut);font-size:12px;background:#121c24}tr{background:var(--card)}tr.me{background:var(--me)}tbody tr{transition:background .18s}tbody tr:hover{background:#ffffff0a}
+td.c,th.c{text-align:center;padding:8px 6px}.cur{background:var(--cur)}
+td.nm,th.nm{position:sticky;left:0;background:inherit;z-index:1}
+input[type=checkbox]{width:17px;height:17px;accent-color:var(--acc);cursor:pointer}input[type=checkbox]:disabled{cursor:default}
+input:not([type=checkbox]),select{border:1px solid var(--line);background:#0b1218;border-radius:8px;padding:8px 10px;min-width:0}
+input:focus,select:focus,.btn:focus-visible{outline:2px solid var(--acc);outline-offset:1px}
+.bl{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}.bl input{flex:1;min-width:140px}
+.chip{border:1px solid var(--line);background:none;border-radius:99px;padding:4px 13px;cursor:pointer;color:var(--mut)}.chip.on{background:var(--acc2);color:var(--acc);border-color:var(--acc)}
+.fl{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}.fl label{display:block;font-size:12px;color:var(--mut);margin-bottom:3px}.fl input{width:100%}
+.login{min-height:100vh;display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:40px;max-width:960px;margin:0 auto;padding:24px 22px;animation:rise .6s both}
+.login h1{font:800 38px/1.08 Manrope,sans-serif;margin:14px 0 10px}.login p{color:var(--mut);max-width:380px;margin:0}.login form{background:linear-gradient(145deg,#17232d,#10171e);border:1px solid #ffffff16;border-radius:12px;padding:24px;box-shadow:0 20px 60px #0004}
+.login form{display:grid;gap:12px}.login input{width:100%;padding:10px 12px}.login .err{color:var(--red);min-height:20px;font-size:13px}
+.lk{background:none;border:0;color:var(--mut);cursor:pointer;text-decoration:underline;padding:0}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:#edf4f8;color:#101820;padding:10px 17px;border-radius:8px;font-size:14px;font-weight:600;z-index:9;box-shadow:0 8px 30px #0007;animation:toast-in .24s both}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}@keyframes fillbar{from{transform:scaleX(0)}to{transform:scaleX(1)}}@keyframes toast-in{from{opacity:0;translate:0 8px}to{opacity:1;translate:0 0}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+@media(max-width:700px){.login{grid-template-columns:1fr;gap:24px;align-content:center}.login h1{font-size:28px}}
+@media(max-width:600px){.wrap{padding:8px 14px 40px}.brand img{width:42px;height:42px}.who>span{text-align:left}.card{padding:15px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.grid .card strong{font-size:20px}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script id="data" type="application/json">{"cfg":{"kelas":"X-5","sekolah":"MAN 1 Jember","iuran":5000,"minggu":20,"mulai":"2026-10-12"},"siswa":[{"id":1,"nama":"Aisyah Aqilah Sutikno","nis":"260210","pw":"","admin":false},{"id":2,"nama":"Akmal Radhitya D.","nis":"260211","pw":"","admin":false},{"id":3,"nama":"Almira Azzaria R.","nis":"260212","pw":"","admin":false},{"id":4,"nama":"Amira Febriyanti","nis":"260213","pw":"","admin":false},{"id":5,"nama":"Anjani Alya Mukhbitha","nis":"260214","pw":"","admin":false},{"id":6,"nama":"Aqila Mutia Mekkah","nis":"260215","pw":"","admin":false},{"id":7,"nama":"Ardhani Afi Affandi","nis":"260216","pw":"","admin":false},{"id":8,"nama":"Ayuanta Tsabita Kirana","nis":"260217","pw":"","admin":false},{"id":9,"nama":"Azka Mutia Azzahra","nis":"260218","pw":"","admin":false},{"id":10,"nama":"Callie Kanita Sava","nis":"260219","pw":"","admin":false},{"id":11,"nama":"Charista Khansa W.","nis":"260220","pw":"","admin":false},{"id":12,"nama":"Intania Rahill Hasyim","nis":"260221","pw":"","admin":false},{"id":13,"nama":"Jibril Karima Wardana","nis":"260222","pw":"","admin":false},{"id":14,"nama":"Kaif Arvi Kasyafani","nis":"260223","pw":"","admin":false},{"id":15,"nama":"Kamilka Fachrizal A.","nis":"260224","pw":"","admin":false},{"id":16,"nama":"Kania Rifdah Azmi","nis":"260225","pw":"","admin":false},{"id":17,"nama":"Khanza Elisya Maisya P.","nis":"260226","pw":"","admin":false},{"id":18,"nama":"Lafif Muhammad A.M.","nis":"260227","pw":"","admin":false},{"id":19,"nama":"M. Faizul Anwar A.F.","nis":"260228","pw":"","admin":false},{"id":20,"nama":"Marisa Rosyidatul M.","nis":"260229","pw":"","admin":false},{"id":21,"nama":"Moh. Fahriza Almerzaki","nis":"260230","pw":"","admin":false},{"id":22,"nama":"Nada Chairani","nis":"260231","pw":"","admin":false},{"id":23,"nama":"Nadia Zaina Malika","nis":"260232","pw":"","admin":false},{"id":24,"nama":"Nadzifa Alzena A.","nis":"260233","pw":"","admin":false},{"id":25,"nama":"Nayla Nikmatil Aliyah","nis":"260234","pw":"","admin":false},{"id":26,"nama":"Nazira Zafran Fakhira","nis":"260235","pw":"","admin":false},{"id":27,"nama":"R. Shalihah Izzatunnisa","nis":"260236","pw":"","admin":true},{"id":28,"nama":"Rohmah Nurul Khoiroh","nis":"260237","pw":"","admin":false},{"id":29,"nama":"Sinta Nuriyah","nis":"260238","pw":"","admin":false},{"id":30,"nama":"Syafia Din Ayu C.J.","nis":"260239","pw":"","admin":false},{"id":31,"nama":"Tsabita Najwa Asyilah","nis":"260240","pw":"","admin":false},{"id":32,"nama":"Valerius Aditya Zafran","nis":"260241","pw":"dcfab83d8cacc1c4293bef7ceeb9822bcfa2acd3e889c4765b472141d192be5b","admin":true},{"id":33,"nama":"Ziyan Varnas Sabian","nis":"260242","pw":"","admin":false}],"bayar":{"1":[],"32":[]},"tx":[]}</script>
+<script>
+// ====== PENGATURAN AKUN ADMIN UTAMA ======
+// Password disimpan sebagai hash SHA-256 (bukan teks asli). Bawaan: NIS "admin", password "admin123".
+// Ganti password lewat Claude (minta "ganti password admin") atau buat admin lain di tab Kelola.
+const ADMIN={nis:'admin',h:'240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9'};
+const GUEST=false; // ubah ke false untuk mewajibkan login (tanpa tombol tamu)
+// =========================================
+const $=s=>document.querySelector(s);
+const S=JSON.parse($('#data').textContent);
+const DATA_KEY='kas-kelas-x5-man1-jember';
+try{const saved=JSON.parse(localStorage.getItem(DATA_KEY));if(saved?.cfg&&Array.isArray(saved.siswa)&&saved.bayar&&Array.isArray(saved.tx))Object.assign(S,saved)}catch(e){}
+const rp=n=>(n<0?'-':'')+'Rp'+Math.abs(n||0).toLocaleString('id-ID');
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fd=d=>new Date(d+'T00:00').toLocaleDateString('id-ID',{day:'numeric',month:'short',year:'numeric'});
+const sha=async t=>[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t)))].map(x=>x.toString(16).padStart(2,'0')).join('');
+const ses={get(){try{return JSON.parse(sessionStorage.getItem('kas-me'))}catch(e){return null}},set(v){try{v?sessionStorage.setItem('kas-me',JSON.stringify(v)):sessionStorage.removeItem('kas-me')}catch(e){}}};
+let me=ses.get(),tab='ringkasan',fl='all',saveTimer,err='';
+const has=(id,w)=>(S.bayar[id]||[]).includes(w);
+const nowW=()=>Math.max(0,Math.min(S.cfg.minggu,Math.floor((Date.now()-new Date(S.cfg.mulai+'T00:00'))/6048e5)+1));
+const owed=s=>{let n=0;for(let w=1;w<=nowW();w++)if(!has(s.id,w))n++;return n};
+const paid=s=>(S.bayar[s.id]||[]).filter(w=>w<=S.cfg.minggu).length;
+function stats(){const iuran=S.siswa.reduce((a,s)=>a+paid(s),0)*S.cfg.iuran,sum=t=>S.tx.filter(x=>x.tipe===t).reduce((a,x)=>a+x.jml,0),masuk=sum('masuk'),keluar=sum('keluar');
+return{iuran,masuk,keluar,saldo:iuran+masuk-keluar,tung:S.siswa.reduce((a,s)=>a+owed(s),0)*S.cfg.iuran}}
+function toast(m){const t=document.createElement('div');t.className='toast';t.textContent=m;$('#app').appendChild(t);setTimeout(()=>t.remove(),2800)}
+function mark(){try{localStorage.setItem(DATA_KEY,JSON.stringify(S))}catch(e){toast('Browser tidak mengizinkan penyimpanan otomatis')}clearTimeout(saveTimer);saveTimer=setTimeout(async()=>{const a=window.claude?.use?await claude.use('artifact'):null;if(!a){toast('Perubahan tersimpan otomatis di browser ini');return}const c=document.documentElement.cloneNode(true);c.querySelector('#app').innerHTML='';c.querySelector('#data').textContent=JSON.stringify(S).replace(/</g,'\\u003c');try{await a.publish('<!doctype html>\\n'+c.outerHTML);toast('Perubahan tersimpan otomatis')}catch(e){toast('Tersimpan di browser ini, tetapi gagal disinkronkan ke halaman')}},500)}
+
+function vLogin(){return`<div class="login"><div><img class="login-logo" src="LOGO-MAN-new.png" alt="Logo MAN 1 Jember"><h1>Kas Kelas ${esc(S.cfg.kelas)}</h1><p>${esc(S.cfg.sekolah)}. Semua pemasukan dan pengeluaran kelas bisa dilihat terbuka.</p></div>
+<form id="lf"><div><label class="mut">NIS</label><input id="ln" inputmode="numeric" autocomplete="username" required></div>
+<div><label class="mut">Password</label><input id="lp" type="password" autocomplete="current-password" required></div>
+<div class="err">${esc(err)}</div><button class="btn pri" style="padding:10px">Masuk</button>
+${GUEST?'<button type="button" class="lk" data-act="guest">Lihat sebagai tamu</button>':''}</form></div>`}
+
+function vRingkasan(){const st=stats(),w=nowW(),n=S.siswa.length,ok=S.siswa.filter(s=>has(s.id,w)).length;
+const late=S.siswa.map(s=>({s,o:owed(s)})).filter(x=>x.o>0).sort((a,b)=>b.o-a.o);
+const mine=me.sid&&S.siswa.find(s=>s.id===me.sid),mo=mine?owed(mine):0;
+const rec=[...S.tx].sort((a,b)=>b.tgl.localeCompare(a.tgl)||b.id-a.id).slice(0,5);
+return`<section class="grid"><div class="card big"><label>Saldo kas</label><strong>${rp(st.saldo)}</strong></div>
+<div class="card"><label>Total pemasukan</label><strong class="g">${rp(st.iuran+st.masuk)}</strong><small>Iuran ${rp(st.iuran)} · Lainnya ${rp(st.masuk)}</small></div>
+<div class="card"><label>Total pengeluaran</label><strong class="r">${rp(st.keluar)}</strong></div>
+<div class="card"><label>Total tunggakan</label><strong>${rp(st.tung)}</strong><small>Sampai minggu ke-${w}</small></div></section>
+${mine?`<div class="card"><h3>Status kamu</h3>${mo?`<span class="tag">Belum bayar ${mo} minggu</span> <span class="mut">Tunggakan ${rp(mo*S.cfg.iuran)}</span>`:'<span class="tag ok">Lunas sampai minggu ini</span>'} <small>· ${paid(mine)} minggu terbayar</small></div>`:''}
+<div class="card"><h3>${w?`Iuran minggu ke-${w}`:'Iuran belum dimulai'}</h3><div class="bar"><i style="width:${n?ok/n*100:0}%"></i></div><small>${ok} dari ${n} siswa sudah membayar (${rp(S.cfg.iuran)} per minggu)</small></div>
+<div class="two"><section class="card"><h3>Belum lunas (${late.length})</h3>${late.slice(0,8).map(x=>`<div class="row"><span>${esc(x.s.nama)}</span><span class="tag">${x.o} mgg · ${rp(x.o*S.cfg.iuran)}</span></div>`).join('')||'<small>Semua sudah lunas 🎉</small>'}${late.length>8?`<small>…dan ${late.length-8} lainnya di tab Iuran</small>`:''}</section>
+<section class="card"><h3>Transaksi terbaru</h3>${rec.map(t=>`<div class="row"><span>${esc(t.ket)}<br><small>${fd(t.tgl)}</small></span><b class="${t.tipe==='masuk'?'g':'r'}">${t.tipe==='masuk'?'+':'-'}${rp(t.jml)}</b></div>`).join('')||'<small>Belum ada transaksi</small>'}</section></div>`}
+
+function vIuran(){const W=Array.from({length:S.cfg.minggu},(_,i)=>i+1),cw=nowW(),adm=me.role==='admin';
+return`<div class="bl"><input id="q" placeholder="Cari nama siswa…"><button class="btn" data-act="csv">Ekspor CSV</button></div>
+<div class="tw"><table><thead><tr><th>No</th><th class="nm">Nama</th>${W.map(w=>`<th class="c ${w===cw?'cur':''}">M${w}</th>`).join('')}<th class="c">Lunas</th><th>Tunggakan</th></tr></thead><tbody>
+${S.siswa.map((s,i)=>{const o=owed(s);return`<tr data-n="${esc(s.nama.toLowerCase())}" class="${s.id===me.sid?'me':''}"><td>${i+1}</td><td class="nm">${esc(s.nama)}</td>${W.map(w=>`<td class="c ${w===cw?'cur':''}"><input type="checkbox" data-f="chk" data-s="${s.id}" data-w="${w}" ${has(s.id,w)?'checked':''} ${adm?'':'disabled'} aria-label="${esc(s.nama)} minggu ${w}"></td>`).join('')}<td class="c">${paid(s)}</td><td>${o?`<span class="tag">${rp(o*S.cfg.iuran)}</span>`:'<span class="tag ok">Lunas</span>'}</td></tr>`}).join('')}
+</tbody><tfoot><tr><th></th><th class="nm">Jumlah bayar</th>${W.map(w=>`<th class="c">${S.siswa.filter(s=>has(s.id,w)).length}</th>`).join('')}<th></th><th></th></tr></tfoot></table></div>
+<p class="mut">Centang = sudah dibayar. Kolom kuning adalah minggu berjalan. ${adm?'':'Hanya admin yang dapat mengubah centang.'}</p>`}
+
+function vKas(){const st=stats(),adm=me.role==='admin',l=[...S.tx].filter(t=>fl==='all'||t.tipe===fl).sort((a,b)=>b.tgl.localeCompare(a.tgl)||b.id-a.id);
+return`${adm?`<div class="card"><h3>Catat transaksi</h3><div class="fl"><div><label>Tanggal</label><input id="td" type="date" value="${new Date().toISOString().slice(0,10)}"></div>
+<div><label>Jenis</label><select id="tt"><option value="keluar">Pengeluaran</option><option value="masuk">Pemasukan</option></select></div>
+<div style="grid-column:span 2"><label>Keterangan</label><input id="tk" placeholder="mis. Beli spidol & penghapus"></div>
+<div><label>Jumlah (Rp)</label><input id="tj" type="number" min="0"></div></div><p><button class="btn pri" data-act="addtx">Tambah</button></p></div>`:''}
+<div class="card"><div class="row"><span>Iuran mingguan terkumpul (otomatis dari tabel Iuran)</span><b class="g">+${rp(st.iuran)}</b></div></div>
+<div class="bl">${[['all','Semua'],['masuk','Pemasukan'],['keluar','Pengeluaran']].map(x=>`<button class="chip ${fl===x[0]?'on':''}" data-act="fl" data-v="${x[0]}">${x[1]}</button>`).join('')}</div>
+<div class="tw"><table><thead><tr><th>Tanggal</th><th>Keterangan</th><th>Jenis</th><th>Jumlah</th>${adm?'<th></th>':''}</tr></thead><tbody>
+${l.map(t=>`<tr><td>${fd(t.tgl)}</td><td style="white-space:normal">${esc(t.ket)}</td><td><span class="tag ${t.tipe==='masuk'?'ok':''}">${t.tipe==='masuk'?'Masuk':'Keluar'}</span></td><td><b class="${t.tipe==='masuk'?'g':'r'}">${t.tipe==='masuk'?'+':'-'}${rp(t.jml)}</b></td>${adm?`<td><button class="btn" data-act="deltx" data-id="${t.id}">Hapus</button></td>`:''}</tr>`).join('')||`<tr><td colspan="5" class="mut">Belum ada transaksi</td></tr>`}
+</tbody></table></div>`}
+
+function vKelola(){const c=S.cfg;return`<div class="card"><h3>Pengaturan kas</h3><div class="fl">
+<div><label>Kelas</label><input data-f="cfg.kelas" value="${esc(c.kelas)}"></div><div><label>Sekolah</label><input data-f="cfg.sekolah" value="${esc(c.sekolah)}"></div>
+<div><label>Iuran per minggu (Rp)</label><input type="number" min="0" data-f="cfg.iuran" value="${c.iuran}"></div>
+<div><label>Jumlah minggu</label><input type="number" min="1" max="52" data-f="cfg.minggu" value="${c.minggu}"></div>
+<div><label>Tanggal mulai (minggu 1)</label><input type="date" data-f="cfg.mulai" value="${c.mulai}"></div></div></div>
+<div class="card"><h3>Data siswa & akun</h3><small>Siswa login memakai NIS. Password awal = NIS sampai kamu mengisi password baru. Isi kolom password hanya jika ingin mengganti.</small></div>
+<div class="tw"><table><thead><tr><th>No</th><th>Nama</th><th>NIS</th><th>Password baru</th><th class="c">Admin</th></tr></thead><tbody>
+${S.siswa.map((s,i)=>`<tr><td>${i+1}</td><td><input data-f="s.nama" data-s="${s.id}" value="${esc(s.nama)}"></td><td><input data-f="s.nis" data-s="${s.id}" inputmode="numeric" value="${esc(s.nis)}"></td><td><input type="password" autocomplete="new-password" data-f="s.pw" data-s="${s.id}" placeholder="${s.pw?'•••• (sudah diatur)':'Awal = NIS'}"></td><td class="c"><input type="checkbox" data-f="s.admin" data-s="${s.id}" ${s.admin?'checked':''}></td></tr>`).join('')}</tbody></table></div>
+<p class="mut">Perubahan disimpan otomatis di browser ini.</p>`}
+
+function render(){const a=$('#app'),sc=$('.tw')?.scrollLeft;
+if(!me){a.innerHTML=vLogin();return}
+const adm=me.role==='admin',T=[['ringkasan','Ringkasan'],['iuran','Iuran'],['kas','Kas'],...(adm?[['kelola','Kelola']]:[])];
+a.innerHTML=`<div class="wrap"><header class="top"><div class="brand"><img src="LOGO-MAN-new.png" alt="Logo MAN 1 Jember"><div><b>Kas Kelas ${esc(S.cfg.kelas)}</b><span>${esc(S.cfg.sekolah)}</span></div></div>
+<div class="who"><span>${esc(me.nama)}<em>${adm?'Admin':'Hanya lihat'}</em></span><button class="btn" data-act="out">Keluar</button></div></header>
+<nav class="tabs">${T.map(t=>`<button class="${tab===t[0]?'on':''}" data-act="tab" data-t="${t[0]}">${t[1]}</button>`).join('')}</nav>
+<main>${{ringkasan:vRingkasan,iuran:vIuran,kas:vKas,kelola:vKelola}[tab]()}</main></div>`;
+if(sc&&$('.tw'))$('.tw').scrollLeft=sc}
+
+async function dl(name,data){const d=window.claude?.use?await claude.use('downloads'):null;if(!d)return toast('Unduhan tidak tersedia di tampilan ini');try{await d.save({filename:name,data});toast('Berhasil diunduh')}catch(e){if(e?.code!=='declined')toast('Unduhan gagal')}}
+
+document.addEventListener('submit',async e=>{e.preventDefault();const nis=$('#ln').value.trim(),pw=$('#lp').value,h=await sha(pw);
+if(nis===ADMIN.nis&&h===ADMIN.h)me={nama:'Bendahara',nis,role:'admin'};
+else{const s=S.siswa.find(x=>x.nis&&x.nis===nis);me=s&&(s.pw?s.pw===h:pw===s.nis)?{nama:s.nama,nis,role:s.admin?'admin':'viewer',sid:s.id}:null}
+err=me?'':'NIS atau password salah';ses.set(me);tab='ringkasan';render()});
+
+document.addEventListener('click',async e=>{const b=e.target.closest('[data-act]');if(!b)return;const a=b.dataset.act,adm=me?.role==='admin';
+if(a==='guest'){me={nama:'Tamu',role:'viewer'};ses.set(me);render()}
+else if(a==='out'){me=null;err='';ses.set(null);render()}
+else if(a==='tab'){tab=b.dataset.t;render()}
+else if(a==='fl'){fl=b.dataset.v;render()}
+else if(a==='addtx'&&adm){const tgl=$('#td').value,ket=$('#tk').value.trim(),jml=Math.round(+$('#tj').value);
+if(!tgl||!ket||!(jml>0))return toast('Lengkapi tanggal, keterangan, dan jumlah');
+S.tx.push({id:Date.now(),tgl,tipe:$('#tt').value,ket,jml});mark();render()}
+else if(a==='deltx'&&adm){S.tx=S.tx.filter(t=>t.id!=b.dataset.id);mark();render()}
+else if(a==='csv'){const W=Array.from({length:S.cfg.minggu},(_,i)=>i+1),q=v=>'"'+String(v).replace(/"/g,'""')+'"';
+dl('iuran-kelas.csv',['No,NIS,Nama,'+W.map(w=>'M'+w).join(',')+',Lunas,Tunggakan',...S.siswa.map((s,i)=>[i+1,q(s.nis),q(s.nama),...W.map(w=>has(s.id,w)?'v':''),paid(s),owed(s)*S.cfg.iuran].join(','))].join('\n'))}});
+
+document.addEventListener('change',async e=>{const t=e.target,f=t.dataset.f;if(!f||me?.role!=='admin')return;const s=S.siswa.find(x=>x.id==t.dataset.s);
+if(f==='chk'){const l=S.bayar[s.id]||(S.bayar[s.id]=[]),w=+t.dataset.w,i=l.indexOf(w);t.checked?i<0&&l.push(w):i>=0&&l.splice(i,1);mark();return render()}
+if(f==='cfg.iuran')S.cfg.iuran=Math.max(0,+t.value||0);
+else if(f==='cfg.minggu')S.cfg.minggu=Math.min(52,Math.max(1,+t.value||1));
+else if(f.startsWith('cfg.'))S.cfg[f.slice(4)]=t.value.trim();
+else if(f==='s.pw'){if(!t.value)return;s.pw=await sha(t.value);t.value='';t.placeholder='•••• (sudah diatur)';toast('Password diperbarui')}
+else if(f==='s.admin')s.admin=t.checked;
+else s[f.slice(2)]=t.value.trim();
+mark()});
+document.addEventListener('input',e=>{if(e.target.id==='q'){const v=e.target.value.toLowerCase();document.querySelectorAll('tr[data-n]').forEach(r=>r.hidden=!r.dataset.n.includes(v))}});
+render();
+</script>
+
+
+</body></html>
